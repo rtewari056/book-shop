@@ -1,0 +1,22 @@
+{
+  "name": "mysql_crud",
+  "version": "1.0.0",
+  "description": "MySQL CRUD Operations using Node.js and React",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "client": "npm run dev --prefix client",
+    "server": "nodemon server.js"
+  },
+  "author": "Rohit Tewari",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
